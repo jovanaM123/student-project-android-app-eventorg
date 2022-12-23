@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Student</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_student">StudentActivity</string>
+    <string name="title_activity_primer">PrimerActivity</string>
+    <string name="title_activity_kontakt">Kontakt</string>
+    <string name="title_activity_nalog">Nalog</string>
+    <string name="title_activity_smestaj">Smestaj</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_restoran">Restoran</string>
+    <string name="title_activity_utakmice">Utakmice</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_istrazi">Istrazi</string>
+    <string name="title_activity_muzeji">Muzeji</string>
+    <string name="title_activity_omiljeni">Omiljeni</string>
+    <string name="title_activity_galerija">Galerija</string>
+
+
+</resources>

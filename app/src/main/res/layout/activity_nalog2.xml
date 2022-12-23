@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nalog">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_nalog" />
+
+
+
+    <LinearLayout
+        android:id="@+id/blok"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="@color/po"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            app:srcCompat="@drawable/user"
+            android:layout_marginLeft="-20dp"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            >
+            <TableRow>
+
+                <TextView
+                    android:layout_width="162dp"
+                    android:padding="3dp"
+                    android:text="Ime" />
+                <TextView
+                    android:text="Jovana"
+                    android:gravity="left"
+
+                    />
+            </TableRow>
+
+            <View
+                android:layout_height="1dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+                <TextView
+                    android:text="Prezime"
+                    android:padding="3dp" />
+                <TextView
+                    android:text="Marašević"
+                    android:gravity="left"
+                    />
+            </TableRow>
+            <View
+                android:layout_height="1dip"
+                android:background="#FF909090" />
+            <TableRow>
+                <TextView
+                    android:text="Fakultet"
+                    android:padding="3dp" />
+                <TextView
+                    android:text="Etf"
+                    android:gravity="left"
+                    />
+            </TableRow>
+            <View
+                android:layout_height="1dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+                <TextView
+                    android:text="Broj indeksa"
+                    android:padding="3dp" />
+                <TextView
+                    android:text="3152/19"
+                    android:gravity="left"
+                    />
+            </TableRow>
+            <View
+                android:layout_height="1dip"
+                android:background="#FF909090" />
+            <TableRow>
+                <TextView
+                    android:text="Adresa"
+                    android:padding="3dp" />
+                <TextView
+                    android:text="/"
+                    android:gravity="left"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_height="1dip"
+                android:background="#FF909090" />
+            <TableRow>
+                <TextView
+                    android:text="Telefon"
+                    android:padding="3dp" />
+                <TextView
+                    android:text="064625736"
+                    android:gravity="left"
+                    />
+            </TableRow>
+            <View
+                android:layout_height="1dip"
+                android:background="#FF909090" />
+            <TableRow>
+                <TextView
+                    android:text="Email"
+                    android:padding="3dp" />
+                <TextView
+                    android:text="jovana@live.com"
+                    android:gravity="left"
+                    />
+            </TableRow>
+            <View
+                android:layout_height="1dip"
+                android:background="#FF909090" />
+            <TableRow>
+                <TextView
+                    android:text="Korisičko ime"
+                    android:padding="3dp" />
+                <TextView
+                    android:text="jovana"
+                    android:gravity="left"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_height="1dip"
+                android:background="#FF909090" />
+            <TableRow>
+                <TextView
+                    android:text="Šifra"
+                    android:padding="3dp" />
+                <TextView
+                    android:text="jovana123"
+                    android:gravity="left"
+                    />
+            </TableRow>
+            <View
+                android:layout_height="1dip"
+                android:background="#FF909090" />
+        </TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="left"
+            android:text="Ukoliko želite da promenite podatke kliknite na dugme ispod"
+            android:textSize="13sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp"/>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="promena"
+            android:text="PROMENA"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

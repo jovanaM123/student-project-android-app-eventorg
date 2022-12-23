@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Galerija"
+            android:label="@string/title_activity_galerija"
+            android:theme="@style/AppTheme.NoActionBar" android:parentActivityName=".Muzeji"></activity>
+        <activity
+            android:name=".Omiljeni"
+            android:label="@string/title_activity_omiljeni"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Muzeji"
+            android:label="@string/title_activity_muzeji"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Istrazi"
+            android:label="@string/title_activity_istrazi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Utakmice"
+            android:label="@string/title_activity_utakmice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Restoran"
+            android:label="@string/title_activity_restoran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Zahtev" />
+        <activity
+            android:name=".Smestaj"
+            android:label="@string/title_activity_smestaj"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nalog"
+            android:label="@string/title_activity_nalog"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kontakt"
+            android:label="@string/title_activity_kontakt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentActivity"
+            android:label="@string/title_activity_student"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PromenaActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

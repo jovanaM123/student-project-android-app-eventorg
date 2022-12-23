@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.student.StudentActivity">
+    <item
+        android:id="@+id/pocetna"
+        android:orderInCategory="100"
+        android:title="Početna"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="100"
+        android:title="Informacije"
+        app:showAsAction="never" >
+
+    <menu>
+        <item
+            android:id="@+id/smestaj"
+            android:orderInCategory="100"
+            android:title="Smeštaj"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/utakmice"
+            android:orderInCategory="100"
+            android:title="Utakmice"
+            app:showAsAction="never" />
+
+    </menu>
+    </item>
+    <item
+        android:id="@+id/istrazi"
+        android:orderInCategory="100"
+        android:title="Istraži BG"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/nalog"
+    android:orderInCategory="100"
+    android:title="Nalog"
+    app:showAsAction="never" />
+
+    <item
+        android:id="@+id/kontakt"
+        android:orderInCategory="100"
+        android:title="Kontakt"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/odjava"
+        android:orderInCategory="100"
+        android:title="Odjava"
+        app:showAsAction="never" />
+</menu>
